@@ -1,0 +1,167 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87J90 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"14 G:\New folder\digital-Input.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S116 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RF1 1 0 :1:1 
+`uc 1 RF2 1 0 :1:2 
+`uc 1 RF3 1 0 :1:3 
+`uc 1 RF4 1 0 :1:4 
+`uc 1 RF5 1 0 :1:5 
+`uc 1 RF6 1 0 :1:6 
+`uc 1 RF7 1 0 :1:7 
+]
+"5631 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-J_DFP/1.4.41/xc8\pic\include\proc\pic18f87j90.h
+[s S125 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 AN6 1 0 :1:1 
+`uc 1 AN7 1 0 :1:2 
+`uc 1 AN8 1 0 :1:3 
+`uc 1 AN9 1 0 :1:4 
+`uc 1 AN10 1 0 :1:5 
+`uc 1 AN11 1 0 :1:6 
+`uc 1 AN5 1 0 :1:7 
+]
+[s S134 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 C2OUT 1 0 :1:1 
+`uc 1 C1OUT 1 0 :1:2 
+`uc 1 C2INB 1 0 :1:3 
+`uc 1 C2INA 1 0 :1:4 
+`uc 1 C1INB 1 0 :1:5 
+`uc 1 C1INA 1 0 :1:6 
+`uc 1 SS1 1 0 :1:7 
+]
+[s S143 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SEG19 1 0 :1:1 
+`uc 1 SEG20 1 0 :1:2 
+`uc 1 SEG21 1 0 :1:3 
+`uc 1 SEG22 1 0 :1:4 
+`uc 1 SEG23 1 0 :1:5 
+`uc 1 SEG24 1 0 :1:6 
+`uc 1 SEG25 1 0 :1:7 
+]
+[s S152 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 CVREF 1 0 :1:5 
+]
+[s S155 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 C2OUTF 1 0 :1:1 
+`uc 1 C1OUTF 1 0 :1:2 
+]
+[u S159 . 1 `S116 1 . 1 0 `S125 1 . 1 0 `S134 1 . 1 0 `S143 1 . 1 0 `S152 1 . 1 0 `S155 1 . 1 0 ]
+[v _PORTFbits PORTFbits `VES159  1 e 1 @3973 ]
+"6665
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S210 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 LATE3 1 0 :1:3 
+`uc 1 LATE4 1 0 :1:4 
+`uc 1 LATE5 1 0 :1:5 
+`uc 1 LATE6 1 0 :1:6 
+`uc 1 LATE7 1 0 :1:7 
+]
+"6692
+[s S219 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 LE3 1 0 :1:3 
+`uc 1 LE4 1 0 :1:4 
+`uc 1 LE5 1 0 :1:5 
+`uc 1 LE6 1 0 :1:6 
+`uc 1 LE7 1 0 :1:7 
+]
+[u S228 . 1 `S210 1 . 1 0 `S219 1 . 1 0 ]
+[v _LATEbits LATEbits `VES228  1 e 1 @3981 ]
+"7182
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S90 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"7199
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES99  1 e 1 @3986 ]
+"7244
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S48 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"7261
+[u S57 . 1 `S48 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES57  1 e 1 @3987 ]
+"7368
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"7430
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"7487
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+[s S27 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRISF1 1 0 :1:1 
+`uc 1 TRISF2 1 0 :1:2 
+`uc 1 TRISF3 1 0 :1:3 
+`uc 1 TRISF4 1 0 :1:4 
+`uc 1 TRISF5 1 0 :1:5 
+`uc 1 TRISF6 1 0 :1:6 
+`uc 1 TRISF7 1 0 :1:7 
+]
+"7504
+[u S36 . 1 `S27 1 . 1 0 ]
+[v _TRISFbits TRISFbits `VES36  1 e 1 @3991 ]
+"7544
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+[s S69 . 1 `uc 1 TRISG0 1 0 :1:0 
+`uc 1 TRISG1 1 0 :1:1 
+`uc 1 TRISG2 1 0 :1:2 
+`uc 1 TRISG3 1 0 :1:3 
+`uc 1 TRISG4 1 0 :1:4 
+`uc 1 CCP1OD 1 0 :1:5 
+`uc 1 CCP2OD 1 0 :1:6 
+`uc 1 SPIOD 1 0 :1:7 
+]
+"7561
+[u S78 . 1 `S69 1 . 1 0 ]
+[v _TRISGbits TRISGbits `VES78  1 e 1 @3992 ]
+"7606
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"14 G:\New folder\digital-Input.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"58
+} 0
